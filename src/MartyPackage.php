@@ -9,7 +9,7 @@ use Smarty;
 
 class MartyPackage extends Package
 {
-    protected $packageName = 'marty';
+    protected string $packageName = 'marty';
 
     protected function bootstrap(): void
     {
